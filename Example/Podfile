@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LJYReformerKeysKit_Example' do
+  pod 'LJYReformerKeysKit', :path => '../'
+
+  target 'LJYReformerKeysKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
